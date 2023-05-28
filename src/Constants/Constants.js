@@ -1,0 +1,1 @@
+export const baseUrl ='https://api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid={7df55b4d4a1b6dbf6db53c088f492d52}'

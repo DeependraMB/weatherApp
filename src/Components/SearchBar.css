@@ -1,0 +1,20 @@
+
+.searchBar {
+    width: 100%;
+    background-color: aliceblue;
+    height: 70px;
+}
+.searchBar input {
+    margin-top: 13px;
+    height: 35px;
+    width: 70%;
+    border: solid 3px black;
+}
+.searchButton {
+    height: 40px;
+    align-items: stretch;
+    width: 50px;
+    border-top: solid 3px black;
+    border-right: solid 3px black;
+    border-bottom: solid 3px black;
+}
