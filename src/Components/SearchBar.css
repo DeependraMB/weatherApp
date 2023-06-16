@@ -1,8 +1,10 @@
 
 .searchBar {
     width: 100%;
-    background-color: aliceblue;
-    height: 70px;
+    height: 709px;
+    background-image: url('abcd.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .searchBar input {
     margin-top: 13px;
@@ -17,4 +19,23 @@
     border-top: solid 3px black;
     border-right: solid 3px black;
     border-bottom: solid 3px black;
+}
+
+.temperatureDetails {
+    font-size: large;
+    color: blueviolet;
+}
+.tempDetails {
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    max-height: fit-content;
+    font-size: xx-large;
+    margin-top: 250px;
+    
+}
+.tempDetails p {
+    font-size: 50px;
+    color: aliceblue;
 }

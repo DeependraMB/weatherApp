@@ -60,16 +60,19 @@ function SearchBar() {
   return (
     <div className='searchBar-body'>
       <div className='searchBar'>
+        
         <input
           type='text'
           value={city}
           placeholder='Type city.....'
           onChange={(e) => setCity(e.target.value)}
         />
-        <button className='searchButton'>
-          <FaSearch />
-        </button>
-        <p>Temperature: {weather ? convertKelvinToCelsius(weather.main.temp) : '0'}°C</p>
+        
+        <div className='tempDetails'>
+          
+        <p className='TemperatureDetails'>Temperature: {weather ? convertKelvinToCelsius(weather.main.temp) : '0'}°C</p>
+        <p>Humidity : {weather ? weather.main.humidity : ""}</p>
+        </div>
       </div>
     </div>
   );
